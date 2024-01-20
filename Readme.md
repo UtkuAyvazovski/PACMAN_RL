@@ -19,22 +19,22 @@ This project implements a reinforcement learning approach for training an agent 
 
 ## Activate virtual environment
 Run the following line from the terminal:
-   ```bash
+   '''bash
    source venv/bin/activate
-
+   
 ## Installing dependencies
 Install the requirements from requirements.txt:
-   ```bash
+   '''bash
    pip install -r requirements.txt
 
 ## Run the simulation of the best model
 Run the tryout.py, where the best model is defined in best.zip folder:
-   ```bash
+   '''bash
    python3 tryout.py
 
 ## Train the best model
 Run the stabletrain.py and save the model in dqn_mspacman.zip folder:
-   ```bash
+   '''bash
    python3 stabletrain.py
 
 # Windows 10 Approach
@@ -53,25 +53,25 @@ Run the stabletrain.py and save the model in dqn_mspacman.zip folder:
 3. Navigate to the project directory.
 
 4. Create a virtual environment:
-   ```bash
+   '''bash
    python3.10 -m venv venv
 
 ## Activate virtual environment
 Run the following line in the Windows Powershell:
-   ```bash
+   '''bash
    .\venv\Scripts\activate
 
 ## Installing dependencies
 Install the requirements from requirements.txt:
-   ```bash
+   '''bash
    pip install -r requirements.txt
 
 ## Run the simulation of the best model
 Run the tryout.py, where the best model is defined in best.zip folder:
-   ```bash
+   '''bash
    python .\tryout.py
 
 ## Train the best model
 Run the stabletrain.py and save the model in dqn_mspacman.zip folder:
-   ```bash
+   '''bash
    python .\stabletrain.py
